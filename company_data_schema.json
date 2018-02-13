@@ -218,7 +218,7 @@
   {
     "name": "PreviousName_2_CompanyName",
     "description": "PreviousName_2_CompanyName",
-    "type": "DATE",
+    "type": "STRING",
     "mode": "NULLABLE"
   },
   {
@@ -230,7 +230,7 @@
   {
     "name": "PreviousName_3_CompanyName",
     "description": "PreviousName_3_CompanyName",
-    "type": "DATE",
+    "type": "STRING",
     "mode": "NULLABLE"
   },
   {
