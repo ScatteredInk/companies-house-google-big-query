@@ -29,6 +29,6 @@ def coh_to_gbq(filename):
 if __name__ == '__main__':
     f = argv[1]
     gbq = coh_to_gbq(f)
-    gbq.to_csv("gbq_" + f, index = False)
+    gbq.to_csv("gbq_" + f, header = False, index = False)
 
 
