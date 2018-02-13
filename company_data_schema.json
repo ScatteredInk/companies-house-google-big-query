@@ -92,13 +92,13 @@
   {
     "name": "Accounts_AccountRefDay",
     "description": "Accounts_AccountRefDay",
-    "type": "STRING",
+    "type": "INT64",
     "mode": "NULLABLE"
   },
   {
     "name": "Accounts_AccountRefMonth",
     "description": "Accounts_AccountRefMonth",
-    "type": "STRING",
+    "type": "INT64",
     "mode": "NULLABLE"
   },
   {
@@ -134,25 +134,25 @@
   {
     "name": "Mortgages_NumMortCharges",
     "description": "Mortgages_NumMortCharges",
-    "type": "STRING",
+    "type": "INT64",
     "mode": "NULLABLE"
   },
   {
     "name": "Mortgages_NumMortOutstanding",
     "description": "Mortgages_NumMortOutstanding",
-    "type": "STRING",
+    "type": "INT64",
     "mode": "NULLABLE"
   },
   {
     "name": "Mortgages_NumMortPartSatisfied",
     "description": "Mortgages_NumMortPartSatisfied",
-    "type": "STRING",
+    "type": "INT64",
     "mode": "NULLABLE"
   },
   {
     "name": "Mortgages_NumMortSatisfied",
     "description": "Mortgages_NumMortSatisfied",
-    "type": "STRING",
+    "type": "INT64",
     "mode": "NULLABLE"
   },
   {
@@ -182,13 +182,13 @@
   {
     "name": "LimitedPartnerships_NumGenPartners",
     "description": "LimitedPartnerships_NumGenPartners",
-    "type": "STRING",
+    "type": "INT64",
     "mode": "NULLABLE"
   },
   {
     "name": "LimitedPartnerships_NumLimPartners",
     "description": "LimitedPartnerships_NumLimPartners",
-    "type": "STRING",
+    "type": "INT64",
     "mode": "NULLABLE"
   },
   {
@@ -200,7 +200,7 @@
   {
     "name": "PreviousName_1_CONDATE",
     "description": "PreviousName_1_CONDATE",
-    "type": "STRING",
+    "type": "DATE",
     "mode": "NULLABLE"
   },
   {
@@ -212,31 +212,31 @@
   {
     "name": "PreviousName_2_CONDATE",
     "description": "PreviousName_2_CONDATE",
-    "type": "STRING",
+    "type": "DATE",
     "mode": "NULLABLE"
   },
   {
     "name": "PreviousName_2_CompanyName",
     "description": "PreviousName_2_CompanyName",
-    "type": "STRING",
+    "type": "DATE",
     "mode": "NULLABLE"
   },
   {
     "name": "PreviousName_3_CONDATE",
     "description": "PreviousName_3_CONDATE",
-    "type": "STRING",
+    "type": "DATE",
     "mode": "NULLABLE"
   },
   {
     "name": "PreviousName_3_CompanyName",
     "description": "PreviousName_3_CompanyName",
-    "type": "STRING",
+    "type": "DATE",
     "mode": "NULLABLE"
   },
   {
     "name": "PreviousName_4_CONDATE",
     "description": "PreviousName_4_CONDATE",
-    "type": "STRING",
+    "type": "DATE",
     "mode": "NULLABLE"
   },
   {
@@ -248,7 +248,7 @@
   {
     "name": "PreviousName_5_CONDATE",
     "description": "PreviousName_5_CONDATE",
-    "type": "STRING",
+    "type": "DATE",
     "mode": "NULLABLE"
   },
   {
@@ -260,7 +260,7 @@
   {
     "name": "PreviousName_6_CONDATE",
     "description": "PreviousName_6_CONDATE",
-    "type": "STRING",
+    "type": "DATE",
     "mode": "NULLABLE"
   },
   {
@@ -272,7 +272,7 @@
   {
     "name": "PreviousName_7_CONDATE",
     "description": "PreviousName_7_CONDATE",
-    "type": "STRING",
+    "type": "DATE",
     "mode": "NULLABLE"
   },
   {
@@ -284,7 +284,7 @@
   {
     "name": "PreviousName_8_CONDATE",
     "description": "PreviousName_8_CONDATE",
-    "type": "STRING",
+    "type": "DATE",
     "mode": "NULLABLE"
   },
   {
@@ -296,7 +296,7 @@
   {
     "name": "PreviousName_9_CONDATE",
     "description": "PreviousName_9_CONDATE",
-    "type": "STRING",
+    "type": "DATE",
     "mode": "NULLABLE"
   },
   {
@@ -308,7 +308,7 @@
   {
     "name": "PreviousName_10_CONDATE",
     "description": "PreviousName_10_CONDATE",
-    "type": "STRING",
+    "type": "DATE",
     "mode": "NULLABLE"
   },
   {
