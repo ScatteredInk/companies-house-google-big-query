@@ -1,0 +1,332 @@
+[
+  {
+    "name": "CompanyName",
+    "description": "CompanyName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CompanyNumber",
+    "description": "CompanyNumber",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "RegAddress_CareOf",
+    "description": "RegAddress_CareOf",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "RegAddress_POBox",
+    "description": "RegAddress_POBox",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "RegAddress_AddressLine1",
+    "description": "RegAddress_AddressLine1",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "RegAddress_AddressLine2",
+    "description": "RegAddress_AddressLine2",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "RegAddress_PostTown",
+    "description": "RegAddress_PostTown",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "RegAddress_County",
+    "description": "RegAddress_County",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "RegAddress_Country",
+    "description": "RegAddress_Country",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "RegAddress_PostCode",
+    "description": "RegAddress_PostCode",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CompanyCategory",
+    "description": "CompanyCategory",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CompanyStatus",
+    "description": "CompanyStatus",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "CountryOfOrigin",
+    "description": "CountryOfOrigin",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "DissolutionDate",
+    "description": "DissolutionDate",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "IncorporationDate",
+    "description": "IncorporationDate",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Accounts_AccountRefDay",
+    "description": "Accounts_AccountRefDay",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Accounts_AccountRefMonth",
+    "description": "Accounts_AccountRefMonth",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Accounts_NextDueDate",
+    "description": "Accounts_NextDueDate",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Accounts_LastMadeUpDate",
+    "description": "Accounts_LastMadeUpDate",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Accounts_AccountCategory",
+    "description": "Accounts_AccountCategory",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Returns_NextDueDate",
+    "description": "Returns_NextDueDate",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Returns_LastMadeUpDate",
+    "description": "Returns_LastMadeUpDate",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Mortgages_NumMortCharges",
+    "description": "Mortgages_NumMortCharges",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Mortgages_NumMortOutstanding",
+    "description": "Mortgages_NumMortOutstanding",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Mortgages_NumMortPartSatisfied",
+    "description": "Mortgages_NumMortPartSatisfied",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Mortgages_NumMortSatisfied",
+    "description": "Mortgages_NumMortSatisfied",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "SICCode_SicText_1",
+    "description": "SICCode_SicText_1",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "SICCode_SicText_2",
+    "description": "SICCode_SicText_2",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "SICCode_SicText_3",
+    "description": "SICCode_SicText_3",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "SICCode_SicText_4",
+    "description": "SICCode_SicText_4",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "LimitedPartnerships_NumGenPartners",
+    "description": "LimitedPartnerships_NumGenPartners",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "LimitedPartnerships_NumLimPartners",
+    "description": "LimitedPartnerships_NumLimPartners",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "URI",
+    "description": "URI",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_1_CONDATE",
+    "description": "PreviousName_1_CONDATE",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_1_CompanyName",
+    "description": "PreviousName_1_CompanyName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_2_CONDATE",
+    "description": "PreviousName_2_CONDATE",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_2_CompanyName",
+    "description": "PreviousName_2_CompanyName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_3_CONDATE",
+    "description": "PreviousName_3_CONDATE",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_3_CompanyName",
+    "description": "PreviousName_3_CompanyName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_4_CONDATE",
+    "description": "PreviousName_4_CONDATE",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_4_CompanyName",
+    "description": "PreviousName_4_CompanyName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_5_CONDATE",
+    "description": "PreviousName_5_CONDATE",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_5_CompanyName",
+    "description": "PreviousName_5_CompanyName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_6_CONDATE",
+    "description": "PreviousName_6_CONDATE",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_6_CompanyName",
+    "description": "PreviousName_6_CompanyName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_7_CONDATE",
+    "description": "PreviousName_7_CONDATE",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_7_CompanyName",
+    "description": "PreviousName_7_CompanyName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_8_CONDATE",
+    "description": "PreviousName_8_CONDATE",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_8_CompanyName",
+    "description": "PreviousName_8_CompanyName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_9_CONDATE",
+    "description": "PreviousName_9_CONDATE",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_9_CompanyName",
+    "description": "PreviousName_9_CompanyName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_10_CONDATE",
+    "description": "PreviousName_10_CONDATE",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "PreviousName_10_CompanyName",
+    "description": "PreviousName_10_CompanyName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ConfStmtNextDueDate",
+    "description": "ConfStmtNextDueDate",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ConfStmtLastMadeUpDate",
+    "description": "ConfStmtLastMadeUpDate",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  }
+]
