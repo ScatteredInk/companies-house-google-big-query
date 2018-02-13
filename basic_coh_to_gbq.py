@@ -16,7 +16,7 @@ def coh_to_gbq(filename):
 	df = pd.read_csv(filename, dtype = str)
 	schema = load_schema()
 	date_columns = list_columns_by_type(schema)
-	int64_columns = list_columns_by_type(scheme, "INT64")
+	int64_columns = list_columns_by_type(schema, "INT64")
 	df.columns = sanitise_names(df.columns)
 	df[date_columns] = df[date_columns].applymap(lambda x: uk_date_to_gbq_date(x))
 	#df[int64_columns] = df[int64_columns].applymap(lambda x: )
