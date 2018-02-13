@@ -40,6 +40,8 @@ Run script
 python3 basic_coh_to_gbq.py BasicCompanyData-2018-02-01-part1_5.zip
 ```
 
+## Transfer to Google Cloud Query
+
 gsutil cp 2018-02-11.csv gs://uk-psc-data/2018-02-11.csv
 
 
@@ -67,7 +69,7 @@ curl https://storage.googleapis.com/uk-psc-data/company_data_schema.json -O
 Load the database
 
 ```
-bq load --replace --source_format=CSV --null_marker="NaN" uk_companies_house.company_data gs://uk-psc-data/1_5
+bq load --replace --source_format=CSV uk_companies_house.company_data gs://uk-psc-data/1_5
 .csv company_data_schema.json
 ```
 
