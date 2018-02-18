@@ -1,0 +1,3 @@
+[submodule "bodsutils"]
+	path = bodsutils
+	url = https://github.com/ScatteredInk/bodsutils.git
